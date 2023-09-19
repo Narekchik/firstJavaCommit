@@ -1,7 +1,7 @@
 public class carrotCount {
     public static void main(String[] args) {
         int carrotCount = 0; // Объявляем переменную для общего числа морковок
-        int carrotPerDay = 5; // В этой переменной фиксируем ежедневный рацион
+        int carrotPerDay = 2; // В этой переменной фиксируем ежедневный рацион
 
         // Число итераций совпадает с количеством дней в неделе
         for (int day = 1; day <= 7; day = day + 1) { // Переменная итерирования - day
