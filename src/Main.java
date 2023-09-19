@@ -28,7 +28,7 @@ class Main {
             } else if (currency.equals("JPY")) {
                 System.out.println("Ваши сбережения в иенах: " + moneyBeforeSalary / rateJPY);
             } else {
-                System.out.println("Валюта не поддерживается.");
+                System.out.println("Валюта не поддерживается...");
             }
 
         } else if (command.equals("advice")) {
